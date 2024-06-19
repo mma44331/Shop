@@ -19,7 +19,7 @@ namespace Shop
         {
             string Msg = "";
             if (TxtFulName.Text.Length < 3)
-                Msg += "עליך ללהזין שם מלא<br/>";
+                Msg += "עליך להזין שם מלא<br/>";
             if (Textpassword.Text.Length < 6 || Textpassword.Text.Contains(" "))
                 Msg += "סיסמה לא תקינה, עליך להזין סיסמה חוקית לפחות 6 תווים וללא רווחים";
             if (Msg != "")
