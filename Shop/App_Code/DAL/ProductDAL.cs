@@ -15,7 +15,7 @@ namespace DAL
         
         public static void Save(Product Tmp)
         {
-            int RetVal = 0;
+            
 
             
             string Sql="";

@@ -47,7 +47,7 @@
            סוג קטוגוריה
            </div>
            <div class="col-md-3">
-           <asp:DropDownList ID="DDL" runat="server"  class="form-control">
+           <asp:DropDownList ID="DDL" runat="server"  class="form-control" >
          <asp:ListItem Text="" Value="-1" />
          <asp:ListItem Text="כלי בית" Value="01"/>
          <asp:ListItem Text="מזון" Value="02" />

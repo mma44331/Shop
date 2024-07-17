@@ -25,7 +25,8 @@ namespace Shop.BackAdmin
                 else
                 {
                     //נחפש מוצר מתוך מאגר המוצרים עם קוד מוצר שקיבלנו
-                    FillData(Pid);               }
+                    FillData(Pid);
+                }
             }
         }
         public void FillData(string Pid)
